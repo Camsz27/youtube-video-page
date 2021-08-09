@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+header {
+  background-color: hsl(0, 0%, 18.82%);
+  height: 56px;
+  padding: 0 25px;
+  display: flex;
+  color: white;
+  vertical-align: middle;
+}
+
+#menu {
+  width: 24px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+#logo {
+  height: 56px;
+  width: 120px;
+}
+
+#search {
+  margin: 10px 0 12px 175px;
+}
+
+input {
+  -webkit-appearance: none;
+  position: relative;
+  top: -10px;
+  height: 32px;
+  width: 562px;
+  background-color: #181818;
+  border: 3px solid transparent;
+  box-shadow: none;
+  color: #7b7b7b;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+button {
+  position: relative;
+  top: -7.01px;
+  left: -5px;
+  background-color: #ffffff14;
+  color: white;
+  width: 65px;
+  height: 32px;
+  border: 4px solid transparent;
+  border-left: 0;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+}
+
+#searchIcon {
+  width: 20px;
+}
+
+#mic {
+  position: relative;
+  top: 1.5px;
+  background-color: #181818;
+  padding: 5px;
+  border-radius: 100%;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#logos {
+  margin-left: 165px;
+}
+
+.icon {
+  width: 26px;
+  margin: 15px 8px;
+  cursor: pointer;
+}
+
+#profile {
+  position: relative;
+  top: -12px;
+  margin-left: 12px;
+  width: 32px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+#content {
+  display: flex;
+  height: 100vh;
+}
+
+#videoContainer {
+  background-color: #181818;
+  color: red;
+  width: 69%;
+}
+
+aside {
+  background-color: #181818;
+  color: rebeccapurple;
+  width: 31%;
+}
