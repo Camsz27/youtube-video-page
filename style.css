@@ -7,6 +7,7 @@
 
 header {
   background-color: hsl(0, 0%, 18.82%);
+  background-color: #202020;
   height: 56px;
   padding: 0 25px;
   display: flex;
@@ -103,7 +104,7 @@ button {
 }
 
 #videoContainer {
-  color: red;
+  color: white;
   width: 69%;
 }
 
@@ -113,6 +114,227 @@ iframe {
   color: black;
 }
 
+#videoDescription {
+  margin-left: 27px;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 18px;
+  font-weight: 500;
+}
+
+#videoStats {
+  display: flex;
+  color: #aaaaaa;
+  font-size: 14px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #303030;
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+#views {
+  margin-right: 370px;
+  font-weight: 400;
+}
+
+p.reaction {
+  margin-right: 24px;
+  cursor: pointer;
+  position: relative;
+  top: -10px;
+}
+
+img.reaction {
+  position: relative;
+  top: 6px;
+}
+
+#dots {
+  position: relative;
+  top: -5px;
+  cursor: pointer;
+}
+
+#description {
+  margin-top: 10px;
+  display: flex;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #303030;
+  margin-right: 20px;
+}
+
+#channelPic {
+  border: 1px solid #303030;
+  border-radius: 100%;
+  height: 50px;
+  margin-right: 20px;
+}
+
+#name {
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  word-spacing: 1px;
+}
+
+#text p:last-child {
+  color: #aaaaaa;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#text p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#subs {
+  color: #aaaaaa;
+  font-size: 12px !important;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.link {
+  color: #3ea6ff;
+}
+
+#subscribe {
+  background-color: #cc0000;
+  width: 109px;
+  height: 36px;
+  text-align: center;
+  margin-left: 210px;
+  margin-top: 15px;
+  font-size: 14px;
+  padding-top: 9px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#commentsContainer {
+  margin-top: 30px;
+}
+
+.commentStats {
+  display: flex;
+  font-size: 16px;
+}
+
+#sort {
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 25px;
+  position: relative;
+  top: -4px;
+}
+
+#sort p {
+  position: relative;
+  top: 3px;
+}
+
+.createComment {
+  display: flex;
+  margin-top: 15px;
+}
+
+.createComment p {
+  color: #717171;
+  margin-top: 13px;
+  font-size: 14px;
+}
+
+.createComment span {
+  position: relative;
+  top: -10px;
+  border-bottom: 2px solid #303030;
+  width: 100%;
+  margin: 0 20px;
+}
+
+.profile {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+
+.comment {
+  display: flex;
+  padding-top: 40px;
+}
+
+.commentInfo {
+  margin-left: 20px;
+}
+
+.commentAuthor {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.date {
+  font-size: 12px;
+  color: #aaaaaa;
+  margin-left: 5px;
+  position: relative;
+  top: 1px;
+  cursor: pointer;
+}
+
+.date:hover {
+  color: white;
+}
+
+.commentText {
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+.reactComment {
+  display: flex;
+  margin-top: 11px;
+  color: #aaaaaa;
+  font-size: 13px;
+}
+
+.reactComment img {
+  width: 16px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.reactComment p {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.replies {
+  color: #3ea6ff;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.replies img {
+  width: 10px;
+  margin-right: 10px;
+}
+
 aside {
   color: #ffffff;
   width: 31%;
@@ -120,9 +342,11 @@ aside {
 
 nav {
   margin-top: 32px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: row;
   font-size: 14px;
+  font-weight: 500;
 }
 
 nav p {
@@ -166,7 +390,7 @@ nav p:hover {
 
 .sideVideosName {
   color: #ffffff;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 14px;
   margin-bottom: 20px;
 }
@@ -175,5 +399,4 @@ nav p:hover {
   width: 16px;
   position: relative;
   top: 3px;
-  color: #ffffff;
 }
