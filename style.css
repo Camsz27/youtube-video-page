@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Roboto';
+  font-family: 'Roboto', 'Arial', 'sans-serif';
 }
 
 header {
@@ -12,6 +12,11 @@ header {
   display: flex;
   color: white;
   vertical-align: middle;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
 }
 
 #menu {
@@ -103,6 +108,8 @@ button {
 }
 
 iframe {
+  margin-top: 30px;
+  margin-left: 27px;
   color: black;
 }
 
@@ -111,11 +118,42 @@ aside {
   width: 31%;
 }
 
+nav {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+}
+
+nav p {
+  background-color: #303030;
+  border: 2px solid #303030;
+  padding: 6px;
+  border-radius: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.chosen {
+  color: black;
+  background-color: white;
+  padding: 5px 11px;
+}
+
+nav p:hover {
+  background-color: #535151;
+}
+
+.chosen:hover {
+  background-color: rgb(211, 209, 209);
+}
+
 .videos {
   display: flex;
   color: #aaaaaa;
   font-size: 12px;
   margin-top: 15px;
+  width: 380px;
 }
 
 .videoPreview {
@@ -128,7 +166,14 @@ aside {
 
 .sideVideosName {
   color: #ffffff;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 14px;
   margin-bottom: 20px;
+}
+
+.verified {
+  width: 16px;
+  position: relative;
+  top: 3px;
+  color: #ffffff;
 }
